@@ -37,8 +37,8 @@ jobs:
         env:
           STAGE: dev
           SERVERLESS_PLATFORM_VENDOR: tencent
-          TENCENT_SECRET_ID: ${{AKIDd5IGxNCo9D0WljQqzqQkoccNr40g5D4e}}
-          TENCENT_SECRET_KEY: ${{LPCixwf7ICpCH6evve6HBpCI7g03qMba}}
+          TENCENT_SECRET_ID: ${{AKIDEsLaZIm12oKaZHjupUu51h7HFyShgQvA}}
+          TENCENT_SECRET_KEY: ${{0lHXYKr891f2A3h5D5i6E6k8G8k7F7j4}}
           CRON: ${{ 0 30 0,16 * * * * }}
           REGION: ${{ secrets.REGION }}
           FUNCTION_NAME: ${{ secrets.FUNCTION_NAME }}
